@@ -63,31 +63,17 @@ O objetivo deste projeto é desenvolver e implementar um sistema de gestão de v
 
 | **Código** | **Nome** | **Descrição** | **Prioridade** |
 | :---: | :---: | --- | --- |
-| RF001 | Login | O usuário e visitante terão a opção de login disponibilizada de acordo com o nível de permissão do usuário. |
-| RF002 | Cadastro | O visitante terá acesso ao cadastro para o uso de mais funcionalidades do site. |
-| RF003 | Acessar documentação | O usuário/visitante deverá ter a disponibilização da IDE para uso. |
-| RF004 | Acessar IDE | O usuário/visitante irá acessar a área do site que possui a documentação do MIPS Assembly. |
-| RF005 | Contatar | Usuário e visitante poderão contatar a equipe desenvolvedora. |
-| RF006 | Console decimal | Todos os usuários terão exibidos os valores dos registradores e do console. |
-| RF007 | Montar código | O usuário/visitante poderá realizar a compilação do código assembly |
-| RF008 | Voltar uma etapa | Todos os usuários podem retroceder uma linha da execução do código, manualmente. |
-| RF009 | Avançar uma etapa | Todos os usuários podem executar o código linha por linha manualmente. |
-| RF010 | Executar código | O usuário e visitante poderá executar o código completo após compilado. |
-| RF011 | Desmontar código | Usuário e Visitante poderão cancelar o processo de compilação do código assembly. |
-| RF012 | Visualizar registradores | Será disponibilizado para todos a visualização de registradores na versão mobile. |
-| RF013 | Abrir console |Usuário e Visitante poderão abrir um console que mostra o resultado do código que já foi rodado na versão mobile. |
-| RF014 | Acessar dashboard | O usuário poderá entrar na área de apresentação das funcionalidades do sistema. |
-| RF015 | Filtrar projetos | O usuário poderá filtrar entre as opções dada pelo sistema os projetos solicitados. |
-| RF016 | Acessar tutoriais | O usuário poderá entrar na área de guia de aprendizagem. |
-| RF017 | Favoritar projetos | O usuário poderá favoritar um ou mais projetos para melhor identificação. |
-| RF018 | Gerenciar perfil | O usuário poderá: Inserir, editar, excluir dados(bio, foto, e-mail, nome, github…) e mudar tema do site. |
-| RF019 | Filtrar tutoriais | O usuário poderá: Filtrar entre as opções dada pelo sistema os tutoriais solicitados. |
-| RF020 | Acessar fórum externo | Acessar fórum da comunidade externa ao site. |
-| RF021 | Exportar arquivo | Usuário e visitante poderão fazer download de arquivo de texto referente ao código. |
-| RF022 | Importar arquivo | Usuário e visitante poderão fazer o download do arquivo de texto referente ao código. |
-| RF023 | Manter Projeto | Apenas o usuário poderá Criar, editar, salvar e excluir projetos que sejam visíveis para os usuários. |
-| RF024 | Manter tutoriais | Apenas o usuário poderá Criar, editar, salvar e excluir tutoriais que sejam visíveis para os usuários. |
-| RF025 | Manter os usuários cadastrados | A administração deverá poder: Criar, editar, excluir, salvar e alterar permissão de acesso. |
+| RF001 | Login | O sistema deverá permitir a opção de login para os usuários |
+| RF002 | Cadastro de Cliente | O sistema deve permitir o cadastro de clientes, incluindo informações como nome, endereço, contato e histórico de compras. |
+| RF003 | Gestão de Vendas| O sistema deve permitir o registro de vendas de papel, incluindo informações como cliente, quantidade vendida, preço unitário, data e forma de pagamento. |
+| RF004 | Monitoramento de Demandas | O sistema deve ser capaz de monitorar a demanda regional de papel, permitindo identificar padrões e tendências de compra em diferentes regiões. |
+| RF005 | Planejamento de abastecimento | O sistema deve fornecer funcionalidades para auxiliar no planejamento de abastecimento de papel, considerando a demanda, estoque atual e prazos de entrega dos fornecedores.|
+| RF006 | Integração com fornecedores | O sistema deve permitir a integração com os fornecedores de papel, facilitando a comunicação, o envio de pedidos e o recebimento de informações sobre prazos de entrega e disponibilidade de produtos. |
+| RF007 | Controle de acesso | O sistema deve ter um controle de acesso seguro, permitindo diferentes níveis de permissões para usuários, como administradores, vendedores e gerentes, garantindo a privacidade e a segurança das informações. |
+| RF008 | Histórico de transações | O sistema deve manter um histórico completo das transações realizadas, incluindo compras, vendas, ajustes de estoque e movimentações internas. |
+| RF009 | Integração com o financeiro | O sistema deve permitir a integração com o setor financeiro da empresa, possibilitando o registro e controle de faturas, pagamentos e outras informações relevantes para o processo de vendas. |
+| RF010 | Controle de estoque aprimorado | O sistema deve fornecer um controle de estoque mais abrangente e preciso do que as planilhas (Utilização de POWERBI), incluindo informações detalhadas sobre os produtos, quantidade em estoque, datas de entrada e saída, e alertas para estoque mínimo. |
+| RF011 | Relatório de Controle de Desempenho | O sistema deve fornecer relatórios detalhados sobre o controle de estoque, o desempenho das entregas, o cumprimento dos contratos e o fluxo de pagamentos. Esses relatórios ajudam na análise e tomada de decisões estratégicas. |
 
 <br>
 
@@ -97,8 +83,4 @@ O objetivo deste projeto é desenvolver e implementar um sistema de gestão de v
 | :---: | :---: | --- | :---: |
 | RNF001 | Tempo de Resposta | A administração deve ser capaz de garantir a  comunicação entre o servidor e o cliente, não podendo ultrapassar o tempo de 5 segundos de resposta na exportação. | Desejável
 | RNF002 | Facilidade de uso | A administração deve prover um sistema com uma interface amigável que possibilite a seus usuários uma interação fácil. | Desejável
-| RNF003 | Manutenção e suporte da IDE |O administrador irá garantir o funcionamento correto da IDE, assegurando um alto grau de impacto.| Obrigatório
-| RNF004 | Monitorar os tutoriais | A administração deverá manter a qualidade dos tutoriais. | Desejável
-| RNF005 | Requisitos legais |O administrador deverá adequar a plataforma de acordo com as normas legais(LGPD), garantindo a integridade de dados sensíveis armazenando-os com token de segurança| Obrigatório
-| RNF006 | Disponibilidade de armazenamento de arquivos | O sistema deverá realizar o gerenciamento de cache para armazenamento de arquivos locais com espelhamento interno.| Obrigatório
-| RNF007 | Exportação de Arquivo | O sistema deve ser capaz de disponibilizar o arquivo exportado pelo usuário em extensão ASM e XML. | Obrigatório
+| RNF003 | Requisitos legais |O administrador deverá adequar a plataforma de acordo com as normas legais(LGPD), garantindo a integridade de dados sensíveis armazenando-os com token de segurança| Obrigatório
