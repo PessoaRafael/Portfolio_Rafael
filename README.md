@@ -1,8 +1,5 @@
-<h3 align="center">
-  <a href="[https://github.com/tads-cnat/MipsCode](https://github.com/tads-cnat/MipsCode)">
-    <img alt="Logo" src="../../Banner.png" width="400">
-  </a>
-</h3>
+
+# EstoqueSeguro
 
 # Documento de Visão
 
@@ -11,7 +8,7 @@
 | Data                |  Versão             |          Descrição  |  Autores            |
 | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
 | 23/06/2023 | 1.0 | Versão inicial |  Grupo 5 |
-| XX/XX/2023 | 1.1 | Visão atualizada do projeto |  Rafael Pessoa |
+| 26/06/2023 | 1.1 | Visão atualizada do projeto |  Rafael Pessoa |
 
 <br>
 
@@ -63,23 +60,29 @@ O objetivo deste projeto é desenvolver e implementar um sistema de gestão de v
 
 | **Código** | **Nome** | **Descrição** | **Prioridade** |
 | :---: | :---: | --- | --- |
-| RF001 | Login | O sistema deverá permitir a opção de login para os usuários |
-| RF002 | Cadastro de Cliente | O sistema deve permitir o cadastro de clientes, incluindo informações como nome, endereço, contato e histórico de compras. |
-| RF003 | Gestão de Vendas| O sistema deve permitir o registro de vendas de papel, incluindo informações como cliente, quantidade vendida, preço unitário, data e forma de pagamento. |
-| RF004 | Monitoramento de Demandas | O sistema deve ser capaz de monitorar a demanda regional de papel, permitindo identificar padrões e tendências de compra em diferentes regiões. |
-| RF005 | Planejamento de abastecimento | O sistema deve fornecer funcionalidades para auxiliar no planejamento de abastecimento de papel, considerando a demanda, estoque atual e prazos de entrega dos fornecedores.|
-| RF006 | Integração com fornecedores | O sistema deve permitir a integração com os fornecedores de papel, facilitando a comunicação, o envio de pedidos e o recebimento de informações sobre prazos de entrega e disponibilidade de produtos. |
-| RF007 | Controle de acesso | O sistema deve ter um controle de acesso seguro, permitindo diferentes níveis de permissões para usuários, como administradores, vendedores e gerentes, garantindo a privacidade e a segurança das informações. |
-| RF008 | Histórico de transações | O sistema deve manter um histórico completo das transações realizadas, incluindo compras, vendas, ajustes de estoque e movimentações internas. |
-| RF009 | Integração com o financeiro | O sistema deve permitir a integração com o setor financeiro da empresa, possibilitando o registro e controle de faturas, pagamentos e outras informações relevantes para o processo de vendas. |
-| RF010 | Controle de estoque aprimorado | O sistema deve fornecer um controle de estoque mais abrangente e preciso do que as planilhas (Utilização de POWERBI), incluindo informações detalhadas sobre os produtos, quantidade em estoque, datas de entrada e saída, e alertas para estoque mínimo. |
-| RF011 | Relatório de Controle de Desempenho | O sistema deve fornecer relatórios detalhados sobre o controle de estoque, o desempenho das entregas, o cumprimento dos contratos e o fluxo de pagamentos. Esses relatórios ajudam na análise e tomada de decisões estratégicas. |
+| RF001 | Login | O sistema deverá permitir a opção de login para os usuários | Alta
+| RF002 | Cadastro de Cliente | O sistema deve permitir o cadastro de clientes, incluindo informações como nome, endereço, contato e histórico de compras. | Alta
+| RF003 | Gestão de Vendas| O sistema deve permitir o registro de vendas de papel, incluindo informações como cliente, quantidade vendida, preço unitário, data e forma de pagamento. | Alta
+| RF004 | Monitoramento de Demandas | O sistema deve ser capaz de monitorar a demanda regional de papel, permitindo identificar padrões e tendências de compra em diferentes regiões. | Alta
+| RF005 | Planejamento de abastecimento | O sistema deve fornecer funcionalidades para auxiliar no planejamento de abastecimento de papel, considerando a demanda, estoque atual e prazos de entrega dos fornecedores.| Média
+| RF006 | Integração com fornecedores | O sistema deve permitir a integração com os fornecedores de papel, facilitando a comunicação, o envio de pedidos e o recebimento de informações sobre prazos de entrega e disponibilidade de produtos. | Média
+| RF007 | Controle de acesso | O sistema deve ter um controle de acesso seguro, permitindo diferentes níveis de permissões para usuários, como administradores, vendedores e gerentes, garantindo a privacidade e a segurança das informações. | Alta
+| RF008 | Histórico de transações | O sistema deve manter um histórico completo das transações realizadas, incluindo compras, vendas, ajustes de estoque e movimentações internas. | Média
+| RF009 | Integração com o financeiro | O sistema deve permitir a integração com o setor financeiro da empresa, possibilitando o registro e controle de faturas, pagamentos e outras informações relevantes para o processo de vendas. | Alta
+| RF010 | Controle de estoque aprimorado | O sistema deve fornecer um controle de estoque mais abrangente e preciso do que as planilhas (Utilização de POWERBI), incluindo informações detalhadas sobre os produtos, quantidade em estoque, datas de entrada e saída, e alertas para estoque mínimo. | Baixa
+| RF011 | Rastreamento de Produtos | O sistema deve permitir o rastreamento individual de cada produto em estoque, fornecendo informações detalhadas sobre sua origem, data de fabricação, lote e outras características relevantes. | Média
+| RF012 | Acompanhamento dos pedidos | O sistema deve permitir o acompanhamento dos pedidos de compra, fornecendo informações atualizadas sobre o status do pedido, datas de entrega estimadas e eventuais atrasos. | Média
+| RF013 | Alertas de Reabastecimento | O sistema deve enviar alertas automáticos quando determinados produtos atingirem um nível de estoque mínimo, informando os responsáveis sobre a necessidade de reabastecimento. | Baixa
+| RF014 | Emissão de NFE | O sistema deve realizar a emissão de Nota Fiscal Eletrônica para os pedidos de papel dos clientes. | Alta
+
+
+
 
 <br>
 
 ## 9. Requisitos NÃO FUNCIONAIS:
 
-| **Código** | **Nome** | **Descrição** | **Prioridade** |
+| **Código** | **Nome** | **Descrição** | **Classificação** |
 | :---: | :---: | --- | :---: |
 | RNF001 | Tempo de Resposta | A administração deve ser capaz de garantir a  comunicação entre o servidor e o cliente, não podendo ultrapassar o tempo de 5 segundos de resposta na exportação. | Desejável
 | RNF002 | Facilidade de uso | A administração deve prover um sistema com uma interface amigável que possibilite a seus usuários uma interação fácil. | Desejável
